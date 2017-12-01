@@ -18,11 +18,8 @@ A python script application for web url crawling
 ## Setup Crontab on your machine for your script
 1. first create a crontab file like service.cron
 vim or nano service.cron
-2. edit the file and write this code
-
-* * * * * your script
-
-3. eg: 30 12 * * * python url_crawl.py
+2. edit the file and write shedule
+eg: 30 12 * * * python url_crawl.py
 4. This is indicate that your script will run every day at 12.30pm automatically
 5. Save and exit and add the cron file into cron tab
 

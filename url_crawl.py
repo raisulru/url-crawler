@@ -43,7 +43,8 @@ def find_url(url):
 
 
 def filter_url(links, suffix):
-    return [s for s in links if suffix in s]
+    suffix_with_dot = '.' + suffix
+    return [s for s in links if suffix_with_dot in s]
 
 
 def find_inner_url(link_list):

@@ -15,18 +15,18 @@ A python script application for web url crawling
 5. If you face IP blocking problem then you can use tor for change ip address for every request
 6. You can use cron service for running this script automatically on a shedule
 
-## Setup Crontab on your machine for your script
+## Setup Crontab on your machine for automatic run script
 1. first create a crontab file like service.cron
-vim or nano service.cron
+'''vim or nano service.cron'''
 2. edit the file and write shedule
 eg: 30 12 * * * python url_crawl.py
 4. This is indicate that your script will run every day at 12.30pm automatically
 5. Save and exit and add the cron file into cron tab
 
-crontab service.cron
+'''crontab service.cron'''
 
 6. check is it done
 
-crontab -l
+'''crontab -l'''
 
 Thank you all

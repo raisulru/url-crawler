@@ -11,7 +11,10 @@ A python script application for web url crawling
 1. You need to install python(python2) first on your machine
 2. Then install git and clone it to your folder
 3. Install the requirments file from requirments.txt
-4. Then simply run script on your terminal  -  'python url_crawl.py'
+4. Then simply run script on your terminal
+
+    ````python url_crawl.py````
+
 5. If you face IP blocking problem then you can use tor for change ip address for every request
 6. You can use cron service for running this script automatically on a shedule
 
